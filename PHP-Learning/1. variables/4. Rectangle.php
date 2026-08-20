@@ -13,4 +13,3 @@ echo "Perimeter: " . $perimeter . "\n";
 echo "========================" . "\n\n";
 
 echo "length: " . $length . " and width : " . $width . " | Area: " . $area . " | Perimeter: " .$perimeter;
-~
