@@ -1,7 +1,7 @@
 <?php
 
-$name = "Rohit";
-$maths = 85;
+$name    = "Rohit";
+$maths   = 85;
 $science = 90;
 $english = 80;
 
