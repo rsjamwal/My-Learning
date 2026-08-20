@@ -10,7 +10,7 @@
 */
 
 // /*...*/ is used for block comments
-// // is used for single line comments
+// // is used for single-line comments
 // # is used for single-line comments
 
 /*
