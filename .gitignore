@@ -1,0 +1,6 @@
+@"
+# Local development configuration
+.vscode/
+.editorconfig
+.prettierrc.json
+"@ | Set-Content .gitignore
