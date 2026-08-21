@@ -247,10 +247,114 @@ $firstName = "Rohit";
 $lastName = "Jamwal";
 $fullName = $firstName . " " . $lastName; //The dot operator (.) is the string concatenation operator in PHP 
 
-print($fullName) . PHP_EOL;
+print ($fullName) . PHP_EOL;
 
 print "=================================================================" . PHP_EOL;
 
 /*
-Q13.
+Q13. String + Integer:
+
+Create
+
+$studentName: "Rohit" (String)
+$studentAge: "20" (String)
+
+Use String concatenation to produce:
+
+Rohit is 20 years old.
+Do not convert $studentAge manually
 */
+
+$studentName = "Rohit";
+$studentAge = "20";
+
+$output = $studentName . " is " . $studentAge . " Years Old" . PHP_EOL;
+print($output);
+
+/*
+STRING CONCATENATION — SPACING PATTERN
+
+In PHP:
+- "text"       → literal text
+- $variable    → value stored in a variable
+- .            → concatenates (joins) the pieces together
+- " "          → one space
+
+Example:
+
+$studentName = "Rohit";
+$studentAge = "20";
+
+$output = $studentName . " is " . $studentAge . " Years Old";
+
+Output:
+Rohit is 20 Years Old
+
+
+Why do we write " is " with TWO spaces?
+
+" is "
+
+   " is "
+    │ │ │
+    │ │ └── space
+    │ └──── "is"
+    └────── space
+
+It has:
+[space]is[space]
+
+Because "is" is between two values:
+
+Rohit[space]is[space]20
+
+
+Why do we write " Years Old" with ONE space?
+
+" Years Old"
+
+It has:
+[space]Years Old
+
+Because it comes after $studentAge and is at the end:
+
+20[space]Years Old
+
+
+GENERAL PATTERN:
+
+If text is between two values:
+$first . " text " . $second
+
+Example:
+$name . " is " . $age
+
+
+If text comes after a value and ends the sentence:
+$first . " text"
+
+Example:
+$age . " Years Old"
+
+
+IMPORTANT:
+The dot (.) does NOT create a space.
+Quotes ("") do NOT automatically create a space.
+
+If you want a space in the output, you must type the space
+inside the quotes.
+
+For example:
+
+$name . " " . $age
+
+The " " contains exactly ONE space.
+
+Remember:
+Quotes → literal text
+$variable → stored value
+. → joins the pieces
+" " → one space
+*/
+
+print "=================================================================" . PHP_EOL;
